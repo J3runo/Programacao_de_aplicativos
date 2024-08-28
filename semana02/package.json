@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "exe": "tsx ./src/index.ts",
-    "exe2": "tsx ./src/aula02.ts"
-
+    "exe": "tsx ./src/index2.ts",
+    "exe2": "tsx ./src/ContaBancaria.ts"
   },
   "keywords": [],
   "author": "",

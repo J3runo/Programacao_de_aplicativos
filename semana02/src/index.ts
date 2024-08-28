@@ -1,7 +1,7 @@
 import Cachorro from "./Cachorro";
 import Dono from "./Dono";
 
-var d1 = new Dono("Bruno","48 96166464")
+var d1 = new Dono("Bruno",4896166464)
 var c1 = new Cachorro("Hulk","pit-bull","preto","Grande",d1);
 
 
