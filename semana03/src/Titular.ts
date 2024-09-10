@@ -7,7 +7,7 @@ export default class titular{
     }
     private nome:string;
     private cpf:string;
-    telefone:string;
+    public telefone:string;
 
     
 }

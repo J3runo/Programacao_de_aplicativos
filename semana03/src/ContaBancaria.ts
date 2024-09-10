@@ -40,6 +40,7 @@ export default class ContaBancaria{
         return this.chavePix
     }
 
+
     public setNumero(numero:string): void{
         this.numero = numero
     }
