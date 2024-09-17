@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body{
+    background-image: url(https://cursossenai.com.br/wp-content/uploads/2021/02/senai-inscricoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+header{
+    background-color:aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+nav {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(76, 146, 226);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li:hover {
+   background-color:white;
+   border-radius: 5px;
+   margin-top: 5px;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+} 
+
+section{
+    background-color: black;
+}
+footer{
+    background-color: blueviolet;
+}
