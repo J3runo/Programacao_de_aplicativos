@@ -21,6 +21,7 @@ const config: ForgeConfig = {
     new AutoUnpackNativesPlugin({}),
     new WebpackPlugin({
       mainConfig,
+      devContentSecurityPolicy:`img-src * self 'unsafe-inline' blob: data: gap:;`,
       renderer: {
         config: rendererConfig,
         entryPoints: [
@@ -29,6 +30,22 @@ const config: ForgeConfig = {
             js: './src/renderer.ts',
             name: 'main_window',
             preload: {
+              js: './src/preload.ts',
+            },
+          },
+          {
+            html:'./src/detalhes.html',
+            js:'./src/detalhes.ts',
+            name: 'detalhes',
+            preload:{
+              js: './src/preload.ts',
+            },
+          },
+          {
+            html:'./src/view/login/login.html',
+            js:'./src/view/login/renderer.ts',
+            name: 'login',
+            preload:{
               js: './src/preload.ts',
             },
           },
